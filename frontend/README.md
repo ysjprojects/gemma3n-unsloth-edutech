@@ -1,4 +1,4 @@
-# 🧪 Science Lab Creator
+# 🧪 EduGemma
 
 An interactive science quiz application that generates adaptive educational experiments for elementary school students.
 

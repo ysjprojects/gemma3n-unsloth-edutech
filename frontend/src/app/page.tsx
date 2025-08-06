@@ -113,7 +113,7 @@ export default function Home() {
       <div className="flex-1 p-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-6">
-            <h1 className="text-4xl font-bold text-blue-700 mb-2">🧪 Science Lab Creator</h1>
+            <h1 className="text-4xl font-bold text-blue-700 mb-2">🧪  EduGemma</h1>
             <p className="text-gray-600 text-lg">Create interactive science experiments and demonstrations!</p>
           </div>
           
