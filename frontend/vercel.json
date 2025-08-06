@@ -1,11 +1,7 @@
 {
   "functions": {
     "app/api/generate-html/route.ts": {
-      "maxDuration": 30
+      "maxDuration": 240
     }
-  },
-  "env": {
-    "HUGGINGFACE_TOKEN": "@huggingface-token",
-    "HUGGINGFACE_MODEL": "@huggingface-model"
   }
 }
