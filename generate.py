@@ -9,11 +9,11 @@ from queue import Empty
 
 # Configuration
 MAX_MODELS = 4  # Number of model instances on single GPU
-#MODEL_PATH = "unsloth/gemma-3n-E4B-it"
-MODEL_PATH="/data/gemma3n-unsloth-edutech/models/dpo_lora-r-64_gemma-3n-E4B-it"
+MODEL_PATH = "unsloth/gemma-3n-E4B-it"
+#MODEL_PATH="/data/gemma3n-unsloth-edutech/models/dpo_lora-r-64_gemma-3n-E4B-it"
 PROMPTS_FILE = "data_processed/test_prompts.json"
-#OUTPUT_FILE = "data_processed/test_responses_gemma-3n-E4B-it.jsonl"
-OUTPUT_FILE = "data_processed/test_responses_dpo_lora-r-64_gemma-3n-E4B-it.jsonl"
+OUTPUT_FILE = "data_processed/test_responses_gemma-3n-E4B-it-oneshot.jsonl"
+#OUTPUT_FILE = "data_processed/test_responses_dpo_lora-r-64_gemma-3n-E4B-it.jsonl"
 DEVICE = "cuda:0"  # Single GPU device
 NUM_PROMPTS = 20
 LOAD_IN_4BIT = False
