@@ -1,0 +1,3 @@
+base model:
+./llm_benchmarks.sh "" "/data/gemma3n-unsloth-edutech/benchmarks/base" "" ""
+./llm_benchmarks.sh "" "/data/gemma3n-unsloth-edutech/benchmarks/dpo_lora-r-64" "" "/data/gemma3n-unsloth-edutech/models/dpo_lora-r-64_gemma-3n-E4B-it"
